@@ -12,6 +12,7 @@ export default angular
     port: 6800,
     encrypt: false,
     auth: {
+      token: process.env.SECRET_TOKEN
       // either add the token field or the user and pass field, not both.
       // token: '$YOUR_SECRET_TOKEN$'
       /*-----------------------------*/
